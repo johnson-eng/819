@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صيدلية 819</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>صيدلية 819</h1>
+        <form id="medicineForm">
+            <input type="text" id="medicineName" placeholder="اسم الدواء" required>
+            <input type="number" id="medicineNumber" placeholder="رقم الدواء" required>
+            <input type="number" id="medicineQuantity" placeholder="الكمية" required>
+            <input type="number" id="medicinePrice" placeholder="السعر" required>
+            <input type="date" id="expiryDate" placeholder="تاريخ انتهاء الصلاحية" required>
+            <input type="text" id="manufacturer" placeholder="الشركة المصنعة" required>
+            <button type="submit">إضافة الدواء</button>
+        </form>
+        <table id="medicineTable">
+            <thead>
+                <tr>
+                    <th>اسم الدواء</th>
+                    <th>رقم الدواء</th>
+                    <th>الكمية</th>
+                    <th>السعر</th>
+                    <th>تاريخ انتهاء الصلاحية</th>
+                    <th>الشركة المصنعة</th>
+                    <th>إجمالي السعر</th>
+                    <th>إجراءات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- سيتم ملء البيانات هنا -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
